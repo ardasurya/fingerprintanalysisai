@@ -1,14 +1,20 @@
-# 🧪 Streamlit Fingerprint Analysis Demo
+# ​ Streamlit Fingerprint Analysis Demo
 
 Aplikasi demo berbasis **Streamlit** untuk analisis sidik jari.  
-Pengguna dapat mengunggah citra sidik jari (JPG/PNG/BMP), kemudian sistem akan melakukan preprocessing, peningkatan kontras, skeletonization, dan menampilkan estimasi fitur dasar seperti **minutiae (ridge endings & bifurcations)** serta beberapa metrik kualitas.
+Pengguna dapat mengunggah citra sidik jari (JPG/PNG/BMP), kemudian sistem akan melakukan preprocessing, peningkatan kontras, skeletonisasi, dan menampilkan estimasi fitur dasar seperti **minutiae (ridge endings & bifurcations)** serta beberapa metrik kualitas.
 
 ---
 
-## ✨ Fitur
+##  Repositori
+Temukan kode sumber dan dokumentasi di GitHub:  
+🔗 [https://github.com/ardasurya/fingerprintanalysisai.git](https://github.com/ardasurya/fingerprintanalysisai.git)
+
+---
+
+##  Fitur
 - Upload gambar sidik jari.
 - Preprocessing otomatis (CLAHE + Gabor filter bank).
-- Segmentasi area sidik jari dan skeletonization.
+- Segmentasi area sidik jari dan skeletonisasi.
 - Deteksi minutiae sederhana dengan **Crossing Number**:
   - Hijau = Ridge endings
   - Merah = Bifurcations
@@ -20,8 +26,8 @@ Pengguna dapat mengunggah citra sidik jari (JPG/PNG/BMP), kemudian sistem akan m
 
 ---
 
-## 📦 Instalasi
-1. Clone repositori ini:
+##  Instalasi
+1. Clone repositori:
    ```bash
-   git clone https://github.com/username/streamlit-fingerprint-demo.git
-   cd streamlit-fingerprint-demo
+   git clone https://github.com/ardasurya/fingerprintanalysisai.git
+   cd fingerprintanalysisai
