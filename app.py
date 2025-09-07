@@ -25,7 +25,7 @@ st.title("🌀 Fingerprint AI Demo – Core/Delta, Pattern, Ridge Count, & Mobil
 st.sidebar.markdown("### 📚 Menu")
 mode = st.sidebar.radio(
     "Pilih fitur:",
-    ["🧪 Analisis", "🏋️ Training (MobileNetV2)", "🔎 Klasifikasi"],
+    ["🧪 Analisis"],
     index=0,
     help="Pilih mode aplikasi"
 )
@@ -855,3 +855,4 @@ elif mode == "🔎 Klasifikasi":
                     st.write(f"- {class_names[i]}: {float(p):.4f}")
             else:
                 st.code(json.dumps({str(i): float(p) for i, p in enumerate(preds)}, indent=2))
+
