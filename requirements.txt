@@ -1,17 +1,17 @@
 # --- Core ---
-streamlit>=1.36.0
-streamlit-drawable-canvas>=0.9.3
-numpy==1.26.4
-pandas>=2.2.2
-scipy>=1.13.1
-matplotlib>=3.8.4
-scikit-image>=0.24.0
-scikit-learn>=1.5.1
-Pillow>=10.3.0
-h5py>=3.11.0
+streamlit
+streamlit-drawable-canvas
+numpy
+pandas
+scipy
+matplotlib
+scikit-image
+scikit-learn
+Pillow
+h5py
 
 # --- Deep Learning ---
-tensorflow==2.16.2
+tensorflow
 
 # --- OpenCV (gunakan versi headless biar ringan di cloud) ---
-opencv-python-headless>=4.10.0.84
+opencv-python-headless
